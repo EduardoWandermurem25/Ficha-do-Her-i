@@ -1,0 +1,10 @@
+#Ficha do Heroi
+
+# Compilação
+bin/
+obj/
+
+#Visual Studio
+.vs/
+*.user
+*.suo
