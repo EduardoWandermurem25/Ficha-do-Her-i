@@ -1,12 +1,25 @@
-﻿Console.WriteLine("-----Ficha do Herói-----");
-Console.WriteLine("\n Digite o nome do seu Personagem:");
+﻿
+Console.WriteLine("==========================");
+Console.WriteLine("      FICHA DO HERÓI");
+Console.WriteLine("==========================");
+
+Console.Write("\nDigite o nome do personagem: ");
 string nome = Console.ReadLine() ?? "";
+
+Console.Write("Digite a classe do personagem: ");
+string classe = Console.ReadLine() ?? "";
 
 int vida = 100;
 int moeda = 20;
 int nivel = 1;
 
-Console.WriteLine("\n Digite a classe do seu Personagem:");
-string classe = Console.ReadLine() ?? "";
+Console.WriteLine("\n====== FICHA DO HERÓI ======");
 
-Console.WriteLine($"\n---Ficha do Personagem---\n Nome: {nome}\n Vida: {vida}\n Moeda: {moeda}\n Nível: {nivel}\n Classe: {classe}");
+Console.WriteLine($"Nome:   {nome}");
+Console.WriteLine($"Classe: {classe}");
+Console.WriteLine($"Vida:   {vida}");
+Console.WriteLine($"Moedas: {moeda}");
+Console.WriteLine($"Nível:  {nivel}");
+
+Console.WriteLine("============================");
+Console.WriteLine("   Sua aventura começa!");
